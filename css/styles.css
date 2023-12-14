@@ -1,0 +1,390 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+  background-color:rgb(23, 23, 23);/*rgb(145, 180, 214);*/
+  position: relative;
+}
+
+.container-fluid{
+  padding: 3% 3% 18%;
+}
+
+h1{
+  font-family: 'Fasthand', cursive;
+  font-size: 6rem;
+  line-height: 1.5;
+  color:white;
+  margin-top: 30px;
+  text-align: center;
+  padding: 8%;
+}
+
+h2{
+  color:#434242;
+  font-family: 'Fasthand', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/*Navbar Section*/
+.navbar{
+  padding: 0 0 4rem;
+}
+.navbar-brand{
+  color: white;
+  font-size: 2rem;
+  font-family: 'Fasthand', cursive;
+}
+
+.nav-item{
+  padding: 0 4px;
+}
+
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  z-index: 2;
+  position: absolute;
+}
+
+/*---------------------------------FRONT PAGE SECTIONS*/
+
+/*Section Titles*/
+
+.section-container{
+  margin: 10% 0% 0% 0%;
+}
+
+h3{
+  margin-left: 0;
+  padding: 0%;
+  color:white;
+}
+
+
+/*Media Section*/
+
+.s-container{
+  padding: 0% 1% 0% 1%;
+  /*padding: 0% 70% 0% 0%;
+  width: 80%;
+  height: 600px;*/
+  background-color:rgb(126, 151, 177); 
+  z-index: 1;
+  /*margin-right: 70%;*/
+
+}
+
+.the-btn{
+  padding: 0%;
+  margin: 0%;
+/*  margin-top: -407.5px; */
+  height: 600px;
+  width:2rem;
+  color:darkslategray;
+  background-color: lightcoral;
+  z-index: 2;
+  border-radius: 0;
+  border-color: lightcoral;
+}
+
+.med-font{
+  font-size: 4rem;
+  font-family: 'Fredericka the Great', serif;
+}
+
+/*Writing Section*/
+
+/* #writing{
+  display: flex; 
+  justify-content: flex-end;
+} */
+
+.writing-section-container{
+  padding: 0% 1% 0% 1%;
+  /*padding: 0% 70% 0% 0%;
+  width: 80%;
+  height: 600px;*/
+  background-color:rgb(126, 151, 177); 
+  z-index: 1;
+  /*margin-right: 70%;*/
+
+}
+
+.wri-font{
+  font-family: 'Cabin Sketch', sans-serif;;
+  font-size: 4rem;
+}
+#writing{
+  align-items:flex-end;
+}
+
+/*Computing Section*/
+.computing-section-container{
+  padding: 0% 1% 0% 1%;
+  /*padding: 0% 70% 0% 0%;
+  width: 80%;
+  height: 600px;*/
+  background-color:rgb(126, 151, 177); 
+  z-index: 1;
+  /*margin-right: 70%;*/
+
+}
+
+.comp-font{
+  font-size:3rem;
+  font-family: 'Wallpoet', sans-serif;
+}
+
+/*Contact Section*/
+#contact{
+  padding: 20%;
+  text-align: center;
+}
+
+
+/*---------------------------------OTHER PAGES*/
+
+/* Other pages */
+.card-titles{
+  color:white;
+  font-size: 3rem;
+  font-family: 'Fasthand', cursive;
+}
+
+.top-container{
+  padding: 3% 3% 0%;
+}
+
+/*Media Page*/
+
+#sd-carousel{
+  text-align: center;
+  background-color:rgb(176, 55, 55);
+}
+
+.sd-color{
+  background-color:rgb(176, 55, 55);
+}
+
+#photography-carousel{
+  text-align: center;
+  background-color: rgb(137, 21, 21);
+}
+
+.photography-color{
+  background-color: rgb(137, 21, 21);
+}
+
+#film-carousel{
+  text-align: center;
+  background-color: rgb(107, 26, 26);
+}
+
+.film-color{
+  background-color: rgb(107, 26, 26);
+}
+
+.art-descip{
+  color:white;
+}
+
+.im{
+  height:400px;
+  width:auto; 
+  margin:15px;
+}
+
+.carousel-item{
+  padding: 1% 15% 4% 15%;
+}
+
+.car-title{
+  font-size: 2rem;
+  color:white;
+  font-family: 'Fredericka the Great', serif;
+  padding: 2% 0% 0% 0%;
+  margin: 0%;
+}
+
+.new{
+  margin: 10% 0% 0% 0%;
+}
+
+h5{
+  font-style:italic;
+  color:white;
+}
+
+.see-more{
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.ytvid{
+  width: 711px;
+  height: 400px;
+}
+/*Features Section*/
+
+#features{ /*section id*/
+  padding: 7% 20%;
+  background-color: white;
+  z-index: 3;
+  position:relative;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+  color:darkslategray;
+
+}
+
+.icon{
+  color: #ef8712;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: mediumaquamarine;
+}
+
+/*Testimonial Section*/
+
+#testimonials{
+  text-align: center;
+  background-color: mediumaquamarine;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+/*Press Section*/
+
+#press{
+  background-color: mediumaquamarine;
+  text-align: center;
+}
+
+.press-logo{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing Section*/
+
+#art-type{
+  padding: 100px;
+  text-align: center;
+}
+
+.art-type-header{
+  color: #000;
+  font-family: 'Fredericka the Great', serif;
+}
+
+.art-type-column{
+  padding: 3% 2%;
+}
+
+.a-type{
+  color: black;
+  background-color: rgb(195, 250, 223);
+}
+
+.benefits{
+  color: black;
+}
+
+
+
+.body-color{
+  background-color:rgb(159, 147, 165);
+}
+
+/*Call to Action Section */
+
+#cta{
+  background-color: mediumaquamarine;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/*Footer Section*/
+
+#footer{
+  padding:7% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+/*Media Queries*/
+
+@media (max-width: 576px){ 
+
+  .the-btn{
+    padding: 0%;
+    height: 40px;
+    width:auto;
+    color:darkslategray;
+    background-color: lightcoral;
+    z-index: 2;
+    border-radius: 0;
+    border-color: lightcoral;
+  }
+}
+
+@media (max-width: 1280px){ 
+
+  .card-titles{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1100px){ 
+
+  .im{
+    width: auto;
+    height: 250px;
+  }
+
+  .ytvid{
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media (max-width: 600px){ 
+
+  .im{
+    width: 235px;
+    height:auto;
+  }
+
+  .ytvid{
+    width: 235px;
+    height: auto;
+  }
+}
