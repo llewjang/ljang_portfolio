@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@600&family=Cabin+Sketch:wght@700&family=Fasthand&family=Fredericka+the+Great&family=Kalnia:wght@300&family=Limelight&family=Montserrat&family=Roboto+Mono:wght@300&family=Squada+One&family=Ubuntu:wght@300&family=Wallpoet&display=swap" rel="stylesheet">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- Stylesheet-->
+  <link rel="stylesheet" href="css/dice.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--font-awesome-->
+  <script src="https://kit.fontawesome.com/0373216f06.js" crossorigin="anonymous"></script> 
+
+  <title>Llewelyn's Portfolio</title>
+</head>
+
+<body class="dicebody">
+
+  <section id="title">
+    <div class="top-container">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <!----><a class="navbar-brand" href="index.html">Lj</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Work</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="media.html">Media</a>
+              <a class="dropdown-item" href="computing.html">Computing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ljangResume_12-2023.pdf">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Title -->
+  </div>
+  </section>
+
+
+  <div class="dicecontainer">
+    <!-- Reports the values of the die and the sum -->
+    <h1 class="diceh1">Let's Roll the Dice!</h1>
+
+    <!-- Reports the outcome of the bet -->
+    <h2 class="diceh2h3">
+      If the dice add to anything above 9, you win $5! <br>
+      If the dice add to 5 or less, I win $5. <br>
+      Ready to play?
+    </h2>
+
+    <!-- JS will input the content -->
+    <h3 class="diceh2h3"></h3>
+
+    <div class="search">
+      <!-- <p> How many times do you want to roll the dice? </p> -->
+      <p class="wh-font">How many times do you want to roll the dice?</p>
+      <input type="number" id="input" placeholder="Enter number of rolls">
+      <button class="search" onclick="letsPlay()">Submit</button>
+      <p class="balance"></p>
+    </div>
+    
+    <div>
+      <button class="myBtn btn" onclick="letsPlayAgain()">Let's Play Again!</button>
+      <!--<div id="balance"></div>-->
+    </div>
+
+    <div class="dice">
+      <img class="img1" src="images/dice6.png">
+    </div>
+
+    <div class="dice">
+      <img class="img2" src="images/dice6.png">
+    </div>
+  </div>
+
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="js/index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
