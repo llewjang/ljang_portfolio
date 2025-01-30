@@ -149,7 +149,7 @@ h3{
 .writ-font{
   font-family: 'Fredericka the Great', serif;
   color:darkcyan;
-  font-weight: 1000;
+/*   font-weight: 1000; */
   font-style: normal;
   font-size: 4rem;
 }
